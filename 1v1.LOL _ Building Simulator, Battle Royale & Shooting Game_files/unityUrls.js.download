@@ -1,0 +1,10 @@
+window.loadedUrls = true;
+
+function getBuildUrl() {
+	return "https://justbuild.nyc3.cdn.digitaloceanspaces.com/NewCI/1v1/Prod/38/b4fd2f7bdf2b4bbfb83cccafa2d054d5";
+}
+
+function getGameLoaderUrl() {
+	return getBuildUrl() + "/WebGL.loader.js";
+}
+
